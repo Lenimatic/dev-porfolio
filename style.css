@@ -1,0 +1,109 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+ body {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1002%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1003)'%3e%3c/rect%3e%3cpath d='M1512 560L0 560 L0 350.18Q73.21 303.39%2c 120 376.61Q146.6 283.21%2c 240 309.81Q311.8 261.61%2c 360 333.41Q370.47 271.88%2c 432 282.35Q507.03 237.38%2c 552 312.42Q634.01 274.44%2c 672 356.45Q740.41 304.86%2c 792 373.27Q825.73 287%2c 912 320.73Q953.21 289.94%2c 984 331.15Q1033 260.14%2c 1104 309.14Q1151.17 236.31%2c 1224 283.49Q1267.16 254.65%2c 1296 297.81Q1340.07 269.88%2c 1368 313.95Q1421.63 295.57%2c 1440 349.2Q1449.74 286.94%2c 1512 296.67z' fill='%23182f5d'%3e%3c/path%3e%3cpath d='M1488 560L0 560 L0 404.61Q56.35 340.96%2c 120 397.3Q160.88 318.18%2c 240 359.05Q284.81 331.87%2c 312 376.68Q382.52 327.2%2c 432 397.72Q469.67 315.39%2c 552 353.06Q625.34 306.4%2c 672 379.74Q719.74 355.48%2c 744 403.22Q798.89 338.12%2c 864 393.01Q906.14 315.15%2c 984 357.3Q1029.54 330.84%2c 1056 376.37Q1103.95 352.32%2c 1128 400.27Q1164.06 316.33%2c 1248 352.39Q1319.69 304.08%2c 1368 375.78Q1439.13 326.91%2c 1488 398.04z' fill='%2325467d'%3e%3c/path%3e%3cpath d='M1560 560L0 560 L0 503.58Q32.37 415.95%2c 120 448.32Q142.87 399.19%2c 192 422.05Q276.44 386.49%2c 312 470.93Q363.88 402.81%2c 432 454.68Q507.01 409.69%2c 552 484.71Q591.45 404.16%2c 672 443.61Q720.95 420.56%2c 744 469.51Q813.95 419.46%2c 864 489.41Q908.94 462.35%2c 936 507.29Q970.66 421.95%2c 1056 456.6Q1123.35 403.95%2c 1176 471.3Q1194.6 417.9%2c 1248 436.5Q1290.16 406.66%2c 1320 448.82Q1393.24 402.06%2c 1440 475.31Q1473.28 388.59%2c 1560 421.86z' fill='%23356cb1'%3e%3c/path%3e%3cpath d='M1536 560L0 560 L0 536.57Q45.23 509.8%2c 72 555.03Q81.86 492.89%2c 144 502.75Q185.58 472.33%2c 216 513.92Q300.58 478.5%2c 336 563.08Q360.35 515.43%2c 408 539.78Q457.32 469.1%2c 528 518.41Q615.66 486.07%2c 648 573.72Q696.44 502.16%2c 768 550.61Q780.45 491.06%2c 840 503.5Q882.79 474.29%2c 912 517.07Q979.31 464.38%2c 1032 531.69Q1116.89 496.59%2c 1152 581.48Q1193.01 502.49%2c 1272 543.5Q1317.26 516.75%2c 1344 562.01Q1388.63 534.63%2c 1416 579.26Q1458.85 502.11%2c 1536 544.96z' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1002'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1003'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='%2300459e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  
+  
+ }
+
+ .main-wrapper {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  
+ }
+
+
+.main-wrapper .profile {
+  position: relative;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  overflow: hidden;
+  
+}
+
+.main-wrapper .profile img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.main-wrapper .menu-drp {
+  position: absolute;
+  top: 6rem;
+  right: -0.9rem;
+  padding: 0.9rem 1.5rem;
+  width: 13rem;
+  background-color: white;
+  box-sizing: 0 0.4rem 1.5rem rgba(0,0,0,0.1);
+  border-radius: 1.9rem;
+  transition: 0.5s;
+}
+
+.main-wrapper .menu-drp::before {
+  content: '';
+  position: absolute;
+  top: -0.3rem;
+  right: 1.8rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  background: #fff;
+  transform: rotate(45deg);
+}
+
+.main-wrapper .menu-drp h3{
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1.5rem 0;
+  font-weight: 700;
+  color: #555;
+  line-height: 1.2em;
+}
+
+
+.main-wrapper .menu-drp h3 span{
+  font-size: 0.89rem;
+  color: #cecece;
+  font-weight: 400;
+}
+
+
+.main-wrapper .menu-drp ul li {
+  list-style: none;
+  padding: 0.8rem 0;
+  border-top: 0.1rem solid rgba(0,0,0,0.05);
+  display: flex;
+  align-items: center;
+  
+}
+
+.main-wrapper .menu-drp ul li img {
+  max-width: 1.3rem;
+  margin-right: 0.90rem;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.main-wrapper .menu-drp ul li:hover img {
+  opacity: 1;
+}
+
+.main-wrapper .menu-drp ul li a {
+  display: inline-block;
+  text-decoration: none;
+}
