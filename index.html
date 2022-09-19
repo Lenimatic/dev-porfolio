@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="main-wrapper">
-    <div class="profile">
+    <div class="profile" onclick="menuToggle();">
       <img src="image/L James.jpg" alt="">
     </div>
     <div class="menu-drp">
@@ -31,7 +31,13 @@
 
 
 
-
+<script>
+function menuToggle(){
+  const toggleMenu = document.querySelector('.menu-drp');
+  toggleMenu.classList.toggle('active')
+}
+  
+</script>
 
 
 
