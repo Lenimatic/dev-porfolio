@@ -139,26 +139,7 @@
 
 .main__container span {
   color: yellow;
-  transform: rotate(30deg);
-}
-
-.main__container h1 span:hover {
-  transition: animate 3s ease-in-outs;
-}
-
-@keyframes animate {
-
-  20% {
-    rotate: 30deg;
-  }
-
-  50% {
-    rotate: 30deg;
-  }
-
-  100% {
-    rotate: 30deg;
-  }
+  
 }
 
 #anchor {
