@@ -126,8 +126,6 @@
   color: royalblue;
 }
 
-/* Home End */
-
 
 .main__container {
   font-family: 'Bungee Outline';
@@ -141,7 +139,26 @@
 
 .main__container span {
   color: yellow;
-  
+  transform: rotate(30deg);
+}
+
+.main__container h1 span:hover {
+  transition: animate 3s ease-in-outs;
+}
+
+@keyframes animate {
+
+  20% {
+    rotate: 30deg;
+  }
+
+  50% {
+    rotate: 30deg;
+  }
+
+  100% {
+    rotate: 30deg;
+  }
 }
 
 #anchor {
@@ -155,3 +172,60 @@
   height: 3rem;
 }
 
+#symbols {
+  position: absolute;
+  height: 7rem;
+  width: 7rem;
+  opacity: 0.01;
+}
+
+a #symbols:hover {
+  opacity: 1;
+  cursor: none;
+}
+
+/* Home End */
+
+/*About start */
+
+
+
+
+
+
+/*About End */
+
+
+
+
+
+
+/* Resume start */
+
+
+
+
+/* Resume end */
+
+
+
+
+
+
+/* Project start */
+
+
+
+
+
+
+/* Project End */
+
+
+
+/* Contact start */
+
+
+
+
+/* Contact End */
