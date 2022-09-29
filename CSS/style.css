@@ -10,12 +10,13 @@
   
 }
 
- body {
-  background-color: black;
+body {
+  background-color: rgb(5, 5, 5);
   font-family: 'Bungee Shade', sans-serif, ;
- }
+}
 
  /* Home Start */
+
 
  .main-wrapper {
   position: fixed;
@@ -168,8 +169,6 @@ a #symbols:hover {
 /* Home End */
 
 /*About start */
-
-
 
 
 
