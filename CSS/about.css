@@ -23,12 +23,21 @@ body {
 ul a {
   text-decoration: none;
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+}
+
+ul a:hover {
+  background-color: white;
+  border-bottom: solid 2px black;
+  font-size: 1.6rem;
+  overflow: hidden;
+  color: black;
+  border-radius: 10px;
+  padding: 0.5rem;
 }
 
 ul li {
-  list-style: none;
-  
+  list-style: none;  
 } 
 
 main img {
@@ -45,9 +54,15 @@ main img {
   position: relative;
   top: -8rem;
   left: 40rem;
-  max-width: 25rem;
-  max-height: 25rem;
+  width: 23rem;
+  height: 8rem;
   color: white;
-  font-size: 1.3rem;
+  font-size: 1rem;
   box-shadow: 25px 25px 75px rgba(0,0,0,0.25), 10px 10px 70px rgba(0,0,0,0.25), inset 5px 5px 10px rgba(0,0,0,0.5), inset 5px 5px 20px rgba(255,255,255,0.2), inset -5px -5px 15px rgba(0,0,0,0.75); 
+  padding: 3rem 2rem 3rem 2rem;
+  border-radius: 10px;
+  text-align: center;
+  
 }
+
+
