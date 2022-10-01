@@ -41,3 +41,63 @@ ul a:hover {
 ul li {
   list-style: none;  
 } 
+
+main {
+  position: relative;
+  background-color: aliceblue;
+  top: 6rem;
+  left: 9rem;
+  width: 55rem;
+  height: 25rem;
+  border-radius: 1rem;
+  padding: 3rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: -0.2rem;
+  margin-bottom: -1rem;
+}
+
+main img {
+  height: 2rem;
+  width: 2rem;
+}
+
+form {
+  text-align: left; 
+}
+
+form #label_send {
+  font-size: 1.1rem;
+  color: gray;
+  margin-bottom: 0.6rem;
+}
+
+form input {
+  padding: 0.5rem 29.5rem 0.5rem 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#name {
+  margin-top: 0.6rem;
+}
+
+form textarea {
+  padding-left: 0.5rem;
+}
+
+#send {
+  padding: 1rem 1.4rem 1rem 1.4rem;
+  cursor: pointer;
+  background-color: #2f363e;
+  color: white;
+  border: none;
+  margin-top: 0.5rem;
+}
+
+.box {
+  display: flex;
+  gap: 3rem;
+}
