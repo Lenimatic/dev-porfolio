@@ -1,0 +1,40 @@
+body {
+    background-image: url(/image/liquid-cheese.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  
+  
+  .menu-bx {
+    position: absolute;
+    background-color: #2f363e; 
+  }
+  
+  .menu-bx ul {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;  
+    gap: 1.7rem; 
+  }
+  
+  ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+  }
+  
+  ul a:hover {
+    background-color: white;
+    border-bottom: solid 2px black;
+    font-size: 1.6rem;
+    overflow: hidden;
+    color: black;
+    border-radius: 10px;
+    padding: 0.5rem;
+  }
+  
+  ul li {
+    list-style: none;  
+  } 

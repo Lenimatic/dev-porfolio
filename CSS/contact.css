@@ -115,6 +115,10 @@ textarea:focus {
   margin-top: 0.5rem;
 }
 
+#send:hover {
+  opacity: 1;
+}
+
 .box {
   display: flex;
   gap: 3rem;
